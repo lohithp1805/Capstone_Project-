@@ -51,11 +51,9 @@ public class FlightBookingTest extends BaseTest {
         home.clickFindFlights();
 
         FlightsPage flights = new FlightsPage(driver);
-
         flights.chooseFlight();
 
         PurchasePage purchase = new PurchasePage(driver);
-
         purchase.enterPassengerDetails();
     }
 
@@ -69,7 +67,6 @@ public class FlightBookingTest extends BaseTest {
         home.clickFindFlights();
 
         FlightsPage flights = new FlightsPage(driver);
-
         flights.chooseFlight();
 
         PurchasePage purchase = new PurchasePage(driver);
